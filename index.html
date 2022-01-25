@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FONTS ======================================================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- ICONS ======================================================= -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- STYLES ====================================================== -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/column.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Bookmark</title>
+</head>
+<body>
+
+  <section id="hero">
+    <header id="site-header">
+      <div class="header__header-wrap container row between align-center">
+        <div class="header__logo-wrap">
+          <a class="header__logo" href="#"><img src="img/logo.svg" alt="logo">Bookmark</a>
+        </div>
+        <ul class="header__nav-list row between align-center">
+          <li class="header__nav-list-item"><a href="#features">features</a></li>
+          <li class="header__nav-list-item"><a href="#">pricing</a></li>
+          <li class="header__nav-list-item"><a href="#">contact</a></li>
+          <li class="header__nav-list-item header__nav-btn btn"><a href="#">login</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="hero__hero-wrap container row">
+      <div class="hero__desc col-6">
+        <h2 class="hero__title">
+          A Simple Bookmark <br>
+          Manager
+        </h2>
+        <p class="hero__paragraph paragraph">
+          A clean and simple interface to organize your favourite websites. <br> 
+          Open a new browser tab and see your sites load instantly. Try it  <br> 
+          for free.
+        </p>
+        <div class="hero__btn-wrap">
+          <a href="#" class="hero__hero-btn hero__btn--active">Get it on Chrome</a>
+          <a href="#" class="hero__hero-btn">Get it on Firefox</a>
+        </div>
+      </div>
+      <div class="hero__image-wrap col-6">
+        <img src="img/tablet.png" alt="tablet" class="hero__image">
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="features__desc center">
+      <h2 class="features__title title">Features</h2>
+      <p class="features__paragraph paragraph">
+        Our aim is to make it quick and easy for you to access your <br> 
+        favourite websites. Your bookmarks sync between your devices <br> 
+        so you can access them on the go.
+      </p>
+    </div>
+    <ul class="features__menu-wrap row center">
+      <li class="features__option features__option--active"><a href="#">Simple bookmarking</a></li>
+      <li class="features__option"><a href="#">Speedy searching</a></li>
+      <li class="features__option"><a href="#">Easy sharing</a></li>
+    </ul>
+    <div class="bookmark container row between">
+      <div class="bookmark__image-wrap">
+        <img src="img/screen.png" alt="image" class="bookmark__image">
+      </div>
+      <div class="bookmark__desc">
+        <h3 class="bookmark__title title">Bookmark in one click</h3>
+        <p class="bookmark__paragraph paragraph">
+          Organize your bookmarks however you like. Our <br> 
+          simple drag-and-drop interface gives you complete <br> 
+          control over how you manage your favourite sites.
+        </p>
+        <div class="bookmark__btn-wrap">
+          <a href="#" class="bookmark__btn">More info</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="extensions">
+    <div class="container">
+      <header class="extensions__header">
+        <h2 class="extensions__title">Download the extension</h2>
+        <p class="extensions__text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+      </header>
+      <ul class="extensions__list">
+        <li class="extensions__item extension extension__chrome">
+          <div class="extension__top">
+            <h3 class="extension__title">Add to Chrome</h3>
+            <p class="extension__text">Minimum version 62</p>
+          </div>
+          <div class="extension__bottom">
+            <a class="extension__link button button--blue button--block" href="#">Add & Install Extension</a>
+          </div>
+        </li>
+        <li class="extensions__item extension extension__firefox">
+          <div class="extension__top">
+            <h3 class="extension__title">Add to Firefox</h3>
+            <p class="extension__text">Minimum version 55</p>
+          </div>
+          <div class="extension__bottom">
+            <a class="extension__link button button--blue button--block" href="#">Add & Install Extension</a>
+          </div>
+        </li>
+        <li class="extensions__item extension extension__opera">
+          <div class="extension__top">
+            <h3 class="extension__title">Add to Opera</h3>
+            <p class="extension__text">Minimum version 46</p>
+          </div>
+          <div class="extension__bottom">
+            <a class="extension__link button button--blue button--block" href="#">Add & Install Extension</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
